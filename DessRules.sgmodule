@@ -1,0 +1,6 @@
+#!name=Dess
+
+[Rule]
+PROCESS-NAME,/Applications/MediaCenter.app/,DIRECT
+PROCESS-NAME,/Applications/Qoder.app/,DIRECT
+PROCESS-NAME,/Applications/panghebox.app/,DIRECT
