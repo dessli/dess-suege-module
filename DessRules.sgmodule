@@ -6,3 +6,4 @@ PROCESS-NAME,/Applications/Qoder.app/,DIRECT
 PROCESS-NAME,/Applications/panghebox.app/,DIRECT
 PROCESS-NAME,/Applications/顺网云电脑.app/,DIRECT
 PROCESS-NAME,/Applications/海马云电脑.app/,DIRECT
+PROCESS-NAME,/Users/dessli/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steam_osx,DIRECT
