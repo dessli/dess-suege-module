@@ -1,5 +1,12 @@
 #!name=Dess
 
+[General]
+skip-proxy = %APPEND% 42.193.8.26/32
+tun-excluded-routes = %APPEND% 42.193.8.26/32
+
+[Rule]
+
+
 [Rule]
 PROCESS-NAME,/Applications/MediaCenter.app/,DIRECT
 PROCESS-NAME,/Applications/Qoder.app/,DIRECT
@@ -9,3 +16,4 @@ PROCESS-NAME,/Applications/海马云电脑.app/,DIRECT
 PROCESS-NAME,/Applications/ToDesk.app/,DIRECT
 PROCESS-NAME,/Applications/WorkBuddy.app/,DIRECT
 PROCESS-NAME,/Applications/RustDesk.app/,DIRECT
+IP-CIDR,42.193.8.26/32,DIRECT
