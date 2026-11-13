@@ -1,6 +1,19 @@
 #!name=Dess
 
+[General]
+# 让 Surge 优先读取 /etc/hosts，方便内网域名直连
+read-etc-hosts = true
+
 [Rule]
+# RustDesk 主界面
+PROCESS-NAME,RustDesk,DIRECT
+PROCESS-NAME,RustDesk.app,DIRECT
+PROCESS-NAME,/Applications/RustDesk.app/,DIRECT
+
+# RustDesk 后台服务 / 守护进程
+PROCESS-NAME,rustdesk,DIRECT
+PROCESS-NAME,rustdesk-service,DIRECT
+
 PROCESS-NAME,/Applications/MediaCenter.app/,DIRECT
 PROCESS-NAME,/Applications/Qoder.app/,DIRECT
 PROCESS-NAME,/Applications/panghebox.app/,DIRECT
@@ -8,4 +21,3 @@ PROCESS-NAME,/Applications/顺网云电脑.app/,DIRECT
 PROCESS-NAME,/Applications/海马云电脑.app/,DIRECT
 PROCESS-NAME,/Applications/ToDesk.app/,DIRECT
 PROCESS-NAME,/Applications/WorkBuddy.app/,DIRECT
-PROCESS-NAME,/Applications/RustDesk.app/,DIRECT
